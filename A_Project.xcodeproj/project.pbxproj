@@ -15,8 +15,8 @@
 		33CAF13B1ED5B9B900CDEBAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CAF1391ED5B9B900CDEBAE /* LaunchScreen.storyboard */; };
 		33CAF1461ED5B9B900CDEBAE /* A_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CAF1451ED5B9B900CDEBAE /* A_ProjectTests.m */; };
 		33CAF1511ED5B9B900CDEBAE /* A_ProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CAF1501ED5B9B900CDEBAE /* A_ProjectUITests.m */; };
-		33CAF1611ED5BE0700CDEBAE /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CAF1601ED5BE0700CDEBAE /* AViewController.m */; };
-		33CAF1A81ED5C3C100CDEBAE /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CAF1A71ED5C3C100CDEBAE /* Target_A.m */; };
+		33CAF1F91ED5D81200CDEBAE /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CAF1F81ED5D81200CDEBAE /* AViewController.m */; };
+		33CAF1FD1ED5D81A00CDEBAE /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CAF1FC1ED5D81A00CDEBAE /* Target_A.m */; };
 		8C3FE8D7541E18C8BC0DCA7F /* libPods-A_Project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4184A98322EF5BBA5BA943D5 /* libPods-A_Project.a */; };
 /* End PBXBuildFile section */
 
@@ -54,10 +54,10 @@
 		33CAF14C1ED5B9B900CDEBAE /* A_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33CAF1501ED5B9B900CDEBAE /* A_ProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_ProjectUITests.m; sourceTree = "<group>"; };
 		33CAF1521ED5B9B900CDEBAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33CAF15F1ED5BE0700CDEBAE /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		33CAF1601ED5BE0700CDEBAE /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		33CAF1A61ED5C3C100CDEBAE /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
-		33CAF1A71ED5C3C100CDEBAE /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		33CAF1F71ED5D81200CDEBAE /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		33CAF1F81ED5D81200CDEBAE /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		33CAF1FB1ED5D81A00CDEBAE /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		33CAF1FC1ED5D81A00CDEBAE /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		4184A98322EF5BBA5BA943D5 /* libPods-A_Project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A_Project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F652B1329985D74E53A3A90 /* Pods-A_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A_Project/Pods-A_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		B42E116B7B9CB64B2306BDFF /* Pods-A_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A_Project.release.xcconfig"; path = "Pods/Target Support Files/Pods-A_Project/Pods-A_Project.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,8 +122,7 @@
 		33CAF12A1ED5B9B900CDEBAE /* A_Project */ = {
 			isa = PBXGroup;
 			children = (
-				33CAF1A51ED5C3A600CDEBAE /* Targets */,
-				33CAF15E1ED5BE0700CDEBAE /* AViewController */,
+				33CAF1F51ED5D7EC00CDEBAE /* A_Project */,
 				33CAF12E1ED5B9B900CDEBAE /* AppDelegate.h */,
 				33CAF12F1ED5B9B900CDEBAE /* AppDelegate.m */,
 				33CAF1311ED5B9B900CDEBAE /* ViewController.h */,
@@ -163,20 +162,29 @@
 			path = A_ProjectUITests;
 			sourceTree = "<group>";
 		};
-		33CAF15E1ED5BE0700CDEBAE /* AViewController */ = {
+		33CAF1F51ED5D7EC00CDEBAE /* A_Project */ = {
 			isa = PBXGroup;
 			children = (
-				33CAF15F1ED5BE0700CDEBAE /* AViewController.h */,
-				33CAF1601ED5BE0700CDEBAE /* AViewController.m */,
+				33CAF1FA1ED5D81A00CDEBAE /* Targets */,
+				33CAF1F61ED5D81200CDEBAE /* AViewController */,
+			);
+			path = A_Project;
+			sourceTree = "<group>";
+		};
+		33CAF1F61ED5D81200CDEBAE /* AViewController */ = {
+			isa = PBXGroup;
+			children = (
+				33CAF1F71ED5D81200CDEBAE /* AViewController.h */,
+				33CAF1F81ED5D81200CDEBAE /* AViewController.m */,
 			);
 			path = AViewController;
 			sourceTree = "<group>";
 		};
-		33CAF1A51ED5C3A600CDEBAE /* Targets */ = {
+		33CAF1FA1ED5D81A00CDEBAE /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				33CAF1A61ED5C3C100CDEBAE /* Target_A.h */,
-				33CAF1A71ED5C3C100CDEBAE /* Target_A.m */,
+				33CAF1FB1ED5D81A00CDEBAE /* Target_A.h */,
+				33CAF1FC1ED5D81A00CDEBAE /* Target_A.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -377,9 +385,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CAF1611ED5BE0700CDEBAE /* AViewController.m in Sources */,
+				33CAF1F91ED5D81200CDEBAE /* AViewController.m in Sources */,
 				33CAF1331ED5B9B900CDEBAE /* ViewController.m in Sources */,
-				33CAF1A81ED5C3C100CDEBAE /* Target_A.m in Sources */,
+				33CAF1FD1ED5D81A00CDEBAE /* Target_A.m in Sources */,
 				33CAF1301ED5B9B900CDEBAE /* AppDelegate.m in Sources */,
 				33CAF12D1ED5B9B900CDEBAE /* main.m in Sources */,
 			);
@@ -621,6 +629,7 @@
 				33CAF1571ED5B9B900CDEBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33CAF1581ED5B9B900CDEBAE /* Build configuration list for PBXNativeTarget "A_ProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -629,6 +638,7 @@
 				33CAF15A1ED5B9B900CDEBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33CAF15B1ED5B9B900CDEBAE /* Build configuration list for PBXNativeTarget "A_ProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -637,6 +647,7 @@
 				33CAF15D1ED5B9B900CDEBAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
